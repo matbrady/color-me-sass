@@ -1,7 +1,7 @@
 ColorMeSASSMap
 ===========
 
-Colour library for SASS. Each color group has been coverted to a map to reduce the amount of global varaible scope. 
+Colour library for SASS. Each color group has been coverted to a map to reduce the amount of global variables. 
 
  [Full site with colours, variable names and documentation here](http://richbray.me/cms/).
 
@@ -24,7 +24,6 @@ There is a convience function ( `colorLib()` ) which allows easy lookup of each 
 	}
 
 The cool thing about CSS pre-processors is you can make the colour lighter or darker, desaturate or saturate colours, change the hue, or even mix two colours together and it will calculate the correct hexadecimal value and place it in the compiled CSS. Pretty neat right.
-
 
 
 Liscense
