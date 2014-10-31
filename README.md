@@ -16,12 +16,12 @@ If your familiar with SASS or LESS this should be a walk in the park. Make sure 
 
 ###2. Using the Colours
 
-There is a convience function ( `colorLib()` ) which allows easy lookup of each color by name. Or you can retrieve a color the old fashion way ( `map-get($colorLib, yellow)` ) 
+There is a convience function ( `colorMe()` ) which allows easy lookup of each color by name. Or you can retrieve a color the old fashion way ( `map-get($colorLib, yellow)` ) 
 
 ``` scss
 body {
-  background-color: colorLib(yellow);
-  color: colorLib(orangeDuller);
+  background-color: colorMe(yellow);
+  color: colorMe(orangeDuller);
 }
 ```
 

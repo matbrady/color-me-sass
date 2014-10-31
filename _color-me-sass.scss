@@ -58,7 +58,7 @@ $colorGroups:
 }
 
 // Helper Function for retrieving color value in colorLib map
-@function colorLib($color) {
+@function colorMe($color) {
   @return map-get($colorLib, $color);
 }
 
