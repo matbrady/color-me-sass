@@ -48,13 +48,13 @@ $colorGroups:
 
 // Merge colors maps
 @each $group in $colorGroups {
-	@debug "Typeof: #{type-of($group)}";
-	@if type-of($group) == 'map' {
-		$colorLib: map-merge($colorLib, $group);
-	}
-	@else {
-		@error "colorGroup item must be a map";
-	}
+  @debug "Typeof: #{type-of($group)}";
+  @if type-of($group) == 'map' {
+    $colorLib: map-merge($colorLib, $group);
+  }
+  @else {
+    @error "colorGroup item must be a map";
+  }
 }
 
 // Helper Function for retrieving color value in colorLib map
