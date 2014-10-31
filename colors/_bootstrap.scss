@@ -3,7 +3,7 @@
 // Grays 7
 // -------------------------
 // 
-$c-boostrap: (
+$c-bootstrap: (
   black                            : #000,
   grayDarker                       : #222,
   grayDark                         : #333,
@@ -50,4 +50,4 @@ $c-boostrap: (
   successBackground                : #dff0d8,
   infoText                         : #3a87ad,
   infoBackground                   : #d9edf7,
-);
+) !default;

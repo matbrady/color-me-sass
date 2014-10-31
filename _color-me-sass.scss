@@ -1,7 +1,7 @@
 // Color Me SASS v1.3
 // Built and Designed by Richard Bray
 // 
-// Coverted to maps for scoping
+// Coverted to maps for scope by Mat Brady
 
 @import "colors/reds"; 
 @import "colors/peaches"; 
@@ -20,7 +20,7 @@
 @import "colors/grays";
 
 @import "colors/bootstrap"; // Colour varialbles from twitter bootstrap
-@import "colors/preboot"; // Colour varialbles from twitter bootstrap
+@import "colors/preboot"; // Colour varialbles from preboot
 
 // Empty colorLib Map
 $colorLib: ();
@@ -30,8 +30,8 @@ $colorLib: ();
 $colorGroups: 
   $c-ambers, 
   $c-blues, 
-  $c-boostrap, 
-  // $c-browns,
+  $c-bootstrap, 
+  $c-browns,
   $c-grays,
   $c-greens,
   $c-limes,
