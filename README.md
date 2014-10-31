@@ -18,10 +18,12 @@ If your familiar with SASS or LESS this should be a walk in the park. Make sure 
 
 There is a convience function ( `colorLib()` ) which allows easy lookup of each color by name. Or you can retrieve a color the old fashion way ( `map-get($colorLib, yellow)` ) 
 
-	body {
-		background-color: colorLib(yellow);
-		color: colorLib(orangeDuller);
-	}
+``` scss
+body {
+  background-color: colorLib(yellow);
+  color: colorLib(orangeDuller);
+}
+```
 
 The cool thing about CSS pre-processors is you can make the colour lighter or darker, desaturate or saturate colours, change the hue, or even mix two colours together and it will calculate the correct hexadecimal value and place it in the compiled CSS. Pretty neat right.
 
