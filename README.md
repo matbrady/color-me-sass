@@ -43,10 +43,4 @@ The work is provided “as is”, without warranty or support, express or implie
 Changelog
 ------------------------------
 
-**v 1.0**        Color Me SASS is born.
-
-**v 1.1**        Added a few brand colours from [http://brandcolors.net/](http://brandcolors.net/) to the library
-
-**v 1.2**        25/04/13 Added some colours from [preboot](http://getpreboot.com/#variables-colors)
-
-**v 1.3**        04/06/13 Updated with over 90 dulux inspired colours
+**v 1.0**        Color Me SASS Map is born.
