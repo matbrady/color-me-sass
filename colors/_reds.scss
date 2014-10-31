@@ -1,60 +1,50 @@
 // Reds 21
 // -------------------------
 
-//Defaults
+$c-reds: (
+  red          : #D42C2C,
+  redDark      : #7A0000,
+  redDarker    : #3D0000,
+  redLight     : #DB4D4D,
+  redLighter   : #F0B2B2,
+  redDull      : #993333,
+  redDuller    : #824D4D,
+  redBright    : #FF0000,
+  redBrighter  : #FF6E6E,
 
-$red:                 	#D42C2C !default;
-$redDark:              	#7A0000 !default;
-$redDarker:            	#3D0000 !default;
-$redLight:              #DB4D4D !default;
-$redLighter:            #F0B2B2 !default;
-$redDull:            	#993333 !default;
-$redDuller:            	#824D4D !default;
-$redBright:            	#FF0000 !default;
-$redBrighter:           #FF6E6E !default;
+  // Variations
+  redAuburn    : #a52a2a,
+  redBurgundy  : #9f1d35,
+  redChestnut  : #9a1a00,
+  redCrimson   : #dc143c,
+  redBrick     : #b22222,
+  redWood      : #ab4e52,
+  redRust      : #b7410e,
+  redWine      : #722f37,
 
-//Variations
+  // Brands
+  redGoogle    : #db4a39,
+  redLastfm    : #c3000d,
+  redPinterest : #c8232c,
+  redYouTube   : #c4302b,
 
-$redAuburn:        		#a52a2a !default;
-$redBurgundy:        	#9f1d35 !default;
-$redChestnut:        	#9a1a00 !default;
-$redCrimson:        	#dc143c !default;
-$redBrick:        		#b22222 !default;
-$redWood:        		#ab4e52 !default;
-$redRust:        		#b7410e !default;
-$redWine:        		#722f37 !default;
+  // * * * Premium * * *
+  // -------------------------
+  // Dulux 10
+  redRaspberry : #bf545a,
+  redDiva      : #b5787d,
+  redRuby      : #7d3d3e,
+  redSummer    : #a05a5c,
+  redFire      : #B24848,
+  redFountain  : #A64048,
+  redAutumn    : #A34847,
+  redBloom     : #9D5351,
+  redThai      : #AA5452,
+  redVolcanic  : #B5473A,
 
-//Brands
-
-$redGoogle:        		#db4a39 !default;
-$redLastfm:        		#c3000d !default;
-$redPinterest:        	#c8232c !default;
-$redYouTube:        	#c4302b !default;
-
-
-
-// * * * Premium * * *
-// -------------------------
-
-
-//Dulux 10
-
-$redRaspberry:   		#bf545a !default;
-$redDiva:   			#b5787d !default;
-$redRuby:   			#7d3d3e !default;
-$redSummer:   			#a05a5c !default;
-$redFire:   			#B24848 !default;
-$redFountain:   		#A64048 !default;
-$redAutumn:   			#A34847 !default;
-$redBloom:   			#9D5351 !default;
-$redThai:  				#AA5452 !default;
-$redVolcanic:		  	#B5473A !default;
-
-//Zurb Foundation 1
-
-$redZurb:        		#c60f13 !default;
-
-
+  // Zurb Foundation 1
+  redZurb      : #c60f13
+);
 
 
 

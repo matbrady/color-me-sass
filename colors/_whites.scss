@@ -1,27 +1,26 @@
 // Whites 15
 // -------------------------
 
-$whiteAntiflash:        #f2f3f4 !default;
-$whiteAntique:          #faebd7 !default;
-$whiteBeige:           	#f5f5dc !default;
-$whiteBlond:            #faf0be !default;
-$whiteCornsilk:         #fff8dc !default;
-$whiteCosmic:           #fff8e7 !default;
-$whiteCream:            #fffdd0 !default;
-$whiteEggshell:         #f0ead6 !default;
-$whiteFloral:           #fffaf0 !default;
-$whiteHoneydew:         #f0fff0 !default;
-$whiteIsabelline:       #f4f0ec !default;
-$whiteNavajo:           #ffdead !default;
-$whitePearl:           	#eae0c8 !default;
-$whiteVanilla:          #f3e5ab !default;
-$whiteSmoke:           	#f5f5f5 !default;
+$c-whites: (
 
+  whiteAntiflash  : #f2f3f4,
+  whiteAntique    : #faebd7,
+  whiteBeige      : #f5f5dc,
+  whiteBlond      : #faf0be,
+  whiteCornsilk   : #fff8dc,
+  whiteCosmic     : #fff8e7,
+  whiteCream      : #fffdd0,
+  whiteEggshell   : #f0ead6,
+  whiteFloral     : #fffaf0,
+  whiteHoneydew   : #f0fff0,
+  whiteIsabelline : #f4f0ec,
+  whiteNavajo     : #ffdead,
+  whitePearl      : #eae0c8,
+  whiteVanilla    : #f3e5ab,
+  whiteSmoke      : #f5f5f5,
 
-// * * * Premium * * *
-// -------------------------
-
-
-//Dulux 1
-
-$whiteBlossom:           #f6e9de !default;
+  // * * * Premium * * *
+  // -------------------------
+  //Dulux 1
+  whiteBlossom    : #f6e9de
+);

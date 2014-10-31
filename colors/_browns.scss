@@ -3,43 +3,40 @@
 
 //Defaults
 
-$brown:             	#663300 !default;
-$brownDark:         	#472400 !default;
-$brownDarker:       	#331A00 !default;
-$brownLight:        	#754719 !default;
-$brownLighter:      	#855C33 !default;
-$brownDull:         	#664728 !default;
-$brownDuller:       	#5E4C3A !default;
-$brownBright:       	#993300 !default;
-$brownBrighter:     	#A34719 !default;
+$c-browns: (
+  brown          : #663300,
+  brownDark      : #472400,
+  brownDarker    : #331A00,
+  brownLight     : #754719,
+  brownLighter   : #855C33,
+  brownDull      : #664728,
+  brownDuller    : #5E4C3A,
+  brownBright    : #993300,
+  brownBrighter  : #A34719,
 
-//Variations
+  // Variations
+  brownBeaver    : #9f8170,
+  brownBistre    : #3d2b1f,
+  brownBole      : #79443b,
+  brownBronze    : #cd7f32,
+  brownBurnt     : #8a3324,
+  brownCamel     : #c19a6b,
+  brownChestnut  : #954535,
+  brownChocolate : #7b3f00,
+  brownCoffee    : #6f4e37,
+  brownCopper    : #b87333,
+  brownMahogany  : #c04000,
+  brownSepia     : #704214,
 
-$brownBeaver:        	#9f8170 !default;
-$brownBistre:        	#3d2b1f !default;
-$brownBole:        		#79443b !default;
-$brownBronze:        	#cd7f32 !default;
-$brownBurnt:        	#8a3324 !default;
-$brownCamel:        	#c19a6b !default;
-$brownChestnut:        	#954535 !default;
-$brownChocolate:        #7b3f00 !default;
-$brownCoffee:        	#6f4e37 !default;
-$brownCopper:        	#b87333 !default;
-$brownMahogany:        	#c04000 !default;
-$brownSepia:        	#704214 !default;
-
-
-// * * * Premium * * *
-// -------------------------
-
-
-//Dulux 8
-
-$brownCaramel:        	#AC9D8E !default;
-$brownPraline:        	#9F8E82 !default;
-$brownTruffle:        	#8E796B !default;
-$brownExotic:        	#8E766C !default;
-$brownBitter:        	#82695F !default;
-$brownCocoa:        	#7E6660 !default;
-$brownMocha:        	#7F6968 !default;
-$brownClay:        		#D7C3B8 !default;
+  // Premium
+  // ----------------------
+  // Dulux 8
+  brownCaramel   : #AC9D8E,
+  brownPraline   : #9F8E82,
+  brownTruffle   : #8E796B,
+  brownExotic    : #8E766C,
+  brownBitter    : #82695F,
+  brownCocoa     : #7E6660,
+  brownMocha     : #7F6968,
+  brownClay      : #D7C3B8
+);

@@ -1,22 +1,21 @@
 // Turquoise 9
 // -------------------------
 
-$turquoise:             #48E8C8 !default;
-$turquoiseDark:         #00997A !default;
-$turquoiseDarker:       #006652 !default;
-$turquoiseLight:        #6BE8CF !default;
-$turquoiseLighter:      #8EE8D6 !default;
-$turquoiseDull:         #52CCB4 !default;
-$turquoiseDuller:       #69B8A8 !default;
-$turquoiseBright:       #00FFCC !default;
-$turquoiseBrighter:     #80FFE6 !default;
 
-// * * * Premium * * *
-// -------------------------
-
-
-//Dulux 3
-
-$turquoiseTeal:   		 #01969c !default;
-$turquoiseDawn:   		 #35AFBA !default;
-$turquoiseCrystal:   	 #2BA8A8 !default;
+$c-turquoises: (
+  turquoise         : #48E8C8,
+  turquoiseDark     : #00997A,
+  turquoiseDarker   : #006652,
+  turquoiseLight    : #6BE8CF,
+  turquoiseLighter  : #8EE8D6,
+  turquoiseDull     : #52CCB4,
+  turquoiseDuller   : #69B8A8,
+  turquoiseBright   : #00FFCC,
+  turquoiseBrighter : #80FFE6,
+  // * * * Premium * * *
+  // -------------------------
+  //Dulux 3
+  turquoiseTeal     : #01969c,
+  turquoiseDawn     : #35AFBA,
+  turquoiseCrystal  : #2BA8A8
+);
